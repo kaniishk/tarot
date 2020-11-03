@@ -1,0 +1,505 @@
+
+
+body {
+  font-family: 'Raleway', 'sans-serif';
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 13px;
+  color: #7a7a7a;
+  line-height: 24px;
+  left: 0.25px;
+}
+
+section {
+  padding-top: 80px;
+
+}
+
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-heading span {
+  font-size: 17px;
+  display: block;
+  margin: 0px;
+  color: #4883ff;
+}
+
+.section-heading h2 {
+  margin-bottom: 30px;
+  margin-top: 14px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #232323;
+  letter-spacing: 0.5px;
+}
+
+
+.blue-button a {
+  display: inline-block;
+  background-color: #4883ff;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 16px;
+  text-decoration: none;
+  border: 2px solid #4883ff;
+  transition: all 0.5s;
+}
+
+.blue-button a:hover {
+  background-color: transparent;
+  color: #4883ff;
+}
+
+
+/* Header Style */
+
+.cf:before, 
+.cf:after {
+  content: '';
+  display: table;
+  visibility: hidden;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+#header {
+  overflow: visible;
+  position: relative;
+  background-color: purple;
+  border-bottom: 5px solid rgb(77, 2, 121);
+  padding: 10px;
+}
+
+#header a{
+  color: lavender;
+}
+
+
+section.banner {
+  padding: 0px;
+}
+
+.banner {
+  background-image: url(../img/theme.jpg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.banner .banner-caption {
+  padding: 100px 0px;
+ 
+}
+
+.banner .banner-caption .line-dec {
+  width: 80px;
+  height: 3px;
+  background-color: #4883ff;
+}
+
+.banner .banner-caption h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 42px;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.banner .banner-caption span {
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+#msg_btn {
+  width: 80%;
+  height: 50px;
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 0px;
+  background-color: #4883ff;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid #4883ff;
+  transition: all 0.5s;
+  margin-top: 10%;
+  margin-left: 10%;
+  display: none;
+  
+}
+
+#msg_btn:hover {
+  background-color: transparent;
+  color: #4883ff;
+}
+
+
+
+section.featured-places {
+  padding-bottom: 80px;
+  background-image: linear-gradient(to bottom right, lavender, purple);
+}
+
+
+.featured-places .featured-item .thumb {
+  position: relative;
+  z-index: 1;
+  min-width: 30%;
+  max-width: 30%;
+}
+
+.featured-places .featured-item .thumb img {
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-radius: 8px;
+  
+}
+
+
+.featured-places .featured-item .down-content {
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+  padding: 20px 20px 0px 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: fit-content;
+  border-radius: 8px;
+  
+}
+
+.featured-places .featured-item .down-content h4 {
+  margin-top: 0px;
+  font-size: 35px;
+  font-weight: 600;
+  color: #232323;
+  margin-bottom: 5px;
+}
+
+.featured-places .featured-item .down-content span {
+  display: block;
+  font-size: 13px;
+  color: #4883ff;
+  margin-bottom: 15px;
+}
+
+.featured-places .featured-item .down-content p {
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.featured-places .featured-item .down-content .col-md-6 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.featured-places .featured-item .down-content .text-button {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border-top: 1px solid #ddd;
+  margin: 0px -5px;
+}
+
+.featured-places .featured-item .down-content .first-button {
+  border-right: 1px solid #ddd;
+}
+
+.featured-places .featured-item .down-content .text-button a {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #7a7a7a;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.featured-places .featured-item .down-content .text-button a:hover {
+  color: #4883ff;
+}
+
+section.our-services .service-item {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 50px 30px;
+  
+}
+
+section.our-services .service-item .icon img {
+  max-width: 100%;
+}
+
+section.our-services .service-item h3 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #232323;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.our-services .down-services h4 {
+  font-size:  30px;
+  font-weight:  600;
+  color:  #232323;
+  margin-top: 0px;
+  margin-bottom:  25px;
+}
+.our-services .down-services p {
+  font-size:  15px;
+}
+
+.down-services {
+  border-top: 1px solid #ddd;
+  padding-top: 30px;
+}
+.accordion li {
+  position: relative;
+}
+.accordion li a {
+  border: 4px solid #ddd;
+}
+
+
+.accordion a {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: #232323;
+  user-select: none;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+.accordion a:after {
+  width: 15px;
+  height: 15px;
+  background-color: #ddd;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  content: " ";
+  top: 22.5px;
+  transform: rotate(-45deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.accordion p {
+  margin: 0px;
+  padding: 20px;
+  font-size: 13px;
+  border: 1px solid #ddd;
+}
+
+a.active:after {
+  background-color: #4883ff;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.sub-footer p {
+  text-align: center;
+  display: inline-block;
+  background-color: #f4f4f4;
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 30px 0px;
+  font-size: 15px;
+  color: #aaaaaa;
+}
+
+.sub-footer a {
+  text-decoration: none;
+  color: #4883ff;
+}
+
+
+@media (max-width:992px) {
+
+  .banner .banner-caption {
+    padding: 200px 30px;
+  }
+
+
+  section.our-services .service-item {
+    margin-bottom: 30px;
+  }
+
+  .down-services .left-content {
+    margin-bottom: 60px;
+  }
+  
+}
+
+.card {
+  transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  perspective: 1000;
+  -ms-transform: perspective(1000px);
+  -moz-transform: perspective(1000px);
+  -ms-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  float: left;
+  width: 120px;
+  height: 80%;
+  background-image: url(../img/tarot.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 0;
+  
+  margin: 30px 0 15px 15px;
+  border-radius: 5%;
+  filter : brightness(80%);
+  
+}
+
+.card:nth-child(5n) {
+  margin-right: 0;
+}
+
+.card:hover{
+  filter: brightness(200%);
+}
+
+.list {
+  height: 250px;
+  position: relative;
+  list-style-type: none;
+  margin-left: 40px;
+ 
+}
+
+#instr{
+width:50%;
+float: left;
+height: 100%;
+}
+
+#grid { 
+  max-width: 90%; 
+  height: 100%; 
+  
+} 
+
+#scrollTop {
+
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: 5px solid white;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 30%;
+  background-color: #4883ff;
+  border: 2px solid #4883ff;
+}
+
+#scrollTop:hover{
+  background-color: transparent;
+  color: #4883ff;
+}
+
+#card_show {
+  scroll-behavior: smooth;
+}
+
+
+/* Change deck
+
+#deck{
+  float: right;
+  padding : 0 0 0 10%;
+}
+
+#deck_btn{
+  width: 60%;
+  height: fit-content;
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 0px;
+  background-color: #4883ff;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid #4883ff;
+  transition: all 0.5s;
+  margin-top: 10%;
+  
+  border-radius:5px;
+}
+
+#deck_btn:hover {
+  background-color: transparent;
+  color: #4883ff;
+}
+
+#deck-collapse{
+  margin-left: 10%;
+  padding: 10px;
+  
+}
+#hid{
+  display: none;
+}
+.deck-menu-btn{
+  width: fit-content;
+  height: fit-content;
+  line-height: 25px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 0px;
+  background-color: transparent;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: rgb(152, 137, 204);
+  font-weight: 600;
+  border: 2px solid rgb(152, 137, 204);
+  transition: all 0.5s;
+  margin-top: 10%;
+  overflow: hidden;
+  border-radius:5px;
+}
+
+.deck-menu-btn:hover{
+  color: #fff;
+   background-color: #4883ff;
+}
+
+*/
